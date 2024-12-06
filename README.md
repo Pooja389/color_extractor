@@ -1,49 +1,41 @@
-<<<<<<< HEAD
-# Task Management Web Application
+# Flask Color Extractor
 
-This is a simple Flask-based web application that allows users to add tasks with their respective time duration. The tasks are stored in a CSV file and can be viewed and deleted.
+This is a Flask web application that extracts the top colors from an uploaded image using the `colorgram` library. Users can upload an image, and the app will display the image along with the top extracted colors.
 
 ## Features
 
-- Add tasks with a name and time duration.
-- Display a list of tasks stored in a CSV file.
-- Delete tasks from the list.
-- Use of Flask, Flask-WTF, Flask-Bootstrap5 for the front-end.
-
-## Technologies Used
-
-- **Flask**: A lightweight WSGI web application framework for Python.
-- **Flask-WTF**: An extension that simplifies form handling with Flask.
-- **Flask-Bootstrap5**: Adds Bootstrap 5 support to Flask for faster and easier front-end development.
-- **CSV**: Used for storing tasks data.
+- Upload an image to analyze its colors.
+- Display the uploaded image and its top 10 colors.
+- User-friendly interface with error handling for file uploads.
 
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/Pooja389/todo_app.git
-   ```
-2. Navigate to project directory
-   ```bash
-   cd todo_app
-   ```
-3. set up a virtual environment
-   ```bash
-   python -m venv venv
-   ```
-4. install the required dependencies
-   ```bash
-   pip install -r requirements.txt
-   ```
-5. run
-   ```bash
-   python main.py      
-      
-   
-   
-   
-   
-=======
-# color_extractor
-A website that will give you top 10 color used in image uploaded by you
->>>>>>> be6a6bb6130eb6c897a882feab0cfda60e1cf307
+
+    ```bash
+    git clone https://github.com/your_username/color_extractor.git
+    cd color_extractor
+    ```
+
+2. Create a virtual environment and activate it:
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\\Scripts\\activate`
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Run the application:
+
+    ```bash
+    python app.py
+    ```
+## Usage
+1. Navigate to the home page at `http://127.0.0.1:5000/`.
+2. Upload an image file using the provided form.
+3. View the uploaded image and the top colors extracted from it.
