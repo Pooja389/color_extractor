@@ -13,7 +13,7 @@ This is a Flask web application that extracts the top colors from an uploaded im
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your_username/color_extractor.git
+    git clone https://github.com/Pooja389/color_extractor.git
     cd color_extractor
     ```
 
