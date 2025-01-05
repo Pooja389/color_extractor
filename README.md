@@ -1,7 +1,8 @@
 # Color Extractor App
 
 This Flask application allows users to upload an image and extracts the top 10 colors from the image using the `colorgram` Python library. The extracted colors are displayed along with the uploaded image on the web page.
-
+# what you will get
+click here https://poojas-portfolio.onrender.com
 ## Features
 - Upload an image through the web interface.
 - Automatically extracts the top 10 colors from the uploaded image.
