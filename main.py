@@ -5,7 +5,7 @@ import colorgram
 app = Flask(__name__)
 app.secret_key = "pooja"
 
-UPLOAD_FOLDER = 'color/static/uploads'
+UPLOAD_FOLDER = 'static/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Ensure the upload folder exists
